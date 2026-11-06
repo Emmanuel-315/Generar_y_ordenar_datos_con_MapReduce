@@ -1,0 +1,4 @@
+# Evita que Git en Windows convierta los scripts a saltos de línea CRLF,
+# que hacen fallar a Bash dentro del contenedor ($'\r': command not found)
+*.sh text eol=lf
+*.md text eol=lf

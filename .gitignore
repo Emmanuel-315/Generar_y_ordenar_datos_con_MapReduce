@@ -1,0 +1,14 @@
+# No subir el instalador de Hadoop ni datos pesados
+hadoop-3.3.6.tar.gz
+*.tar.gz
+
+# Salidas de Hadoop (carpetas completas, binarias)
+part-m-*
+part-r-*
+_SUCCESS
+.part-*.crc
+*.crc
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
